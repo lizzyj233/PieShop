@@ -1,0 +1,4 @@
+/*Media Only Query -- this says, any window wider than 768 will have these styles applied to them*/
+@media only screen and (min-width: 768px) {
+    
+}/*End of Media Query*/
