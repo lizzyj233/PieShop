@@ -25,12 +25,20 @@
         </div><!--end of row-->
     </header>
     
-    <nav>
-    
+    <nav class="clearfix">
+        <div class="row limited">
+            <button id="hamburgerBtn">&#9776;</button><!--the &#9776 is just a reference to the unicode char for the hamburger symbol-->
+            <ul id="primaryNav"><!--href="#" references and html entity to which the window should be scrolled-->
+                <li class="active"><a href="#">Specials</a></li><!--class active makes the connection between the header in main and the item in the menu-->
+                <li><a href="#">Cheesecake</a></li>
+                <li><a href="#">Fruit Pies</a></li>
+                <li><a href="#">Swag Shop</a></li>
+            </ul>
+        </div>
     </nav>
     
     <main>
-    <h1>Hello World</h1>
+    <h1>Specials</h1>
     </main>
     
     <footer class="clearfix">
@@ -68,6 +76,6 @@
         </div><!--end of the row-->
     </footer>
     
-    
+    <script src="js/menuToggle.js"></script>
 </body>
 </html>

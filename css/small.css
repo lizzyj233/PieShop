@@ -44,6 +44,30 @@ header h2{
     font-size: 1.05rem;
 }
 
+/*nav rules*/
+button#hamburgerBtn { 
+    background: none;
+    border:none;
+    color: #fff;
+    font-size: 2.4rem;
+    cursor: pointer; /*the cursor displayed whe mouse is over the element*/
+    padding: 0 30px 0 2vw;
+    }
+nav {background-color: #23cfa7}
+nav ul {margin: 0; padding: 0;}
+nav ul li {list-style-type: none;}
+nav a {
+    display: block; /*block display allows for padding*/
+    padding: .8rem 0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+nav li.active{background-color: rgba(0, 0, 0, .5)}/*50% blacken the regular color*/
+nav a:hover{background-color: rgba(0,0,0,0.2);}/*20% blacked the regular color*/
+nav ul.open {display: block;}
+nav ul {display: none;}
+    
 
 /*footer rules*/
 footer {
