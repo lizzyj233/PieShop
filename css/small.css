@@ -1,4 +1,4 @@
-/*Default CSS to be applied; unless these are overridden in medium or large they will be applied*/
+/*Default CSS to be applied; unless these are overridden in medium or large they will be applied. Obviously, fine tuning these units when designing something from scratch takes more time, so try different sizes out.*/
 
 /*Text Adjust: This styling will prevent the screen from loading text too small on small screens; the font will always be 100%*/
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
@@ -13,3 +13,51 @@ body {
     font-size: 16px;
     font-weight: 300;
 }
+/*Grid Rules*/
+.row {clear: both;}
+.limited{max-width:1400px; margin: auto;}/*this will center the content even as the window reaches max size*/
+.column{float: left; padding: 0 2vw; margin: 0 0 .75rem 0;}/*2vw = 2 view width*/
+
+.small-12{width: 100%;}
+
+/*header rules*/
+header {
+    background-color: plum;
+}
+header img{
+    float: left;
+    height: 85px;
+    padding-right: 10px;
+}
+header h1, header h2{
+    margin: 0;
+    color: white;
+    font-weight: 300;
+    font-style: italic;
+}
+header h1{
+    padding: .5rem 0 0 0;
+    font-size: 1.95rem;
+}
+header h2{
+    padding: .2rem 0 0 0;
+    font-size: 1.05rem;
+}
+
+
+/*footer rules*/
+footer {
+    background-color: plum;
+    font-size: 1.2rem;
+}
+footer h2 {
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 1rem 0 .3rem 0; /*not adding a left or right margin*/
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }/*inserts content after the floated items and prevents the content from collapsing*/
