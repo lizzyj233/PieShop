@@ -67,6 +67,11 @@ nav li.active{background-color: rgba(0, 0, 0, .5)}/*50% blacken the regular colo
 nav a:hover{background-color: rgba(0,0,0,0.2);}/*20% blacked the regular color*/
 nav ul.open {display: block;}
 nav ul {display: none;}
+
+main img{
+    width: 100%;
+    height: auto
+}
     
 
 /*footer rules*/
