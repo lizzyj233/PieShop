@@ -10,4 +10,5 @@
     nav li {width: 25%; float: left;}
 
     .medium-6{width: 50%;}
+    .medium-4{width:33.333%}
 }/*End of Media Query*/

@@ -19,6 +19,7 @@ body {
 .column{float: left; padding: 0 2vw; margin: 0 0 .75rem 0;}/*2vw = 2 view width*/
 
 .small-12{width: 100%;}
+.small-6{width: 50%}
 
 /*header rules*/
 header {
@@ -73,12 +74,19 @@ main img{
     height: auto
 }
 
-main h1{
+main h1, main h3{
     color: plum;
     font-style: italic;
     margin: .5rem 0 .1rem 0;
+    
+}
+main h1{
     font-size: 2rem;
 }
+main h1{
+    font-size: 1.2rem;
+}
+main p{font-size: 1.2rem; margin: 0 0 .3rem 0}
 
 /* ***** SPECIALS STYLING ***** */
 .labeled{position: relative;}
